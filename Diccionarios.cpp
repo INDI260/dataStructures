@@ -61,7 +61,7 @@ void Diccionarios::inicializarDiccionario(std::string rutaArchivo) {
         cout<<"El diccionario se ha inicializado correctamente."<<endl;
         
         // impresion:
-    
+    /*
         list<indice>::iterator it;
         for(it=indices.begin();it!=indices.end();it++){
             cout<<"\n indice: "<<it->getLetra()<<endl;
@@ -70,7 +70,7 @@ void Diccionarios::inicializarDiccionario(std::string rutaArchivo) {
                 cout<<p.getPalabra()<<endl;
             }
         }
-        
+        */
     }
     
     
@@ -103,7 +103,9 @@ bool Diccionarios::puntajePalabra(std::string palabra){
     return false;
 }
 
-
+bool Diccionarios::getDiccionarioInicializado(){
+    return diccionarioInicializado;
+}
 
 //Muestra al usuario los comandos disponibles y los explica
 void Diccionarios::ayuda(string x) {
@@ -159,6 +161,3 @@ void Diccionarios::ayuda(string x) {
   else
     cout << "El comando no existe." << endl;
 }
-
-
-

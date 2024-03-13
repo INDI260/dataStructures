@@ -15,6 +15,7 @@ private:
 public:
   void inicializarDiccionario (std::string rutaArchivo);	// punto 1 Eduardo
   bool puntajePalabra (std::string palabra);	//punto 3 Harry 
+  bool getDiccionarioInicializado ();
   void ayuda (std::string x);	// Caicedo
 };
 

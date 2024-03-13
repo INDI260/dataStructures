@@ -109,3 +109,7 @@ bool DiccionarioInverso::puntajePalabra(std::string palabra){
     }
     return false;
 }
+
+bool DiccionarioInverso::getDiccionarioInversoInicializado(){
+  return diccionarioInversoInicializado;
+}

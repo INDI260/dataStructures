@@ -15,7 +15,7 @@ private:
 public:
     void inicializarInverso(std::string rutaArchivo);// punto 1 Eduardo
     bool puntajePalabra( std::string palabra);//punto 3 Harry
-    
+    bool getDiccionarioInversoInicializado();
 };
 
 #endif // DICCIONARIOSINVERSO_H
